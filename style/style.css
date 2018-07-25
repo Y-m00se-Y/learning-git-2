@@ -7,10 +7,7 @@ body {
 }
 header, footer {
 	height: 10vh;
-	min-height: 50px;
 	text-align: center;
-}
-header h1, footer h3 {
 }
 main {
 	height: 80vh;
@@ -19,13 +16,20 @@ main {
 	color: #fff;
 	background-image: url("https://image.shutterstock.com/z/stock-vector-jamaica-flag-265491971.jpg");
 	background-size: 100% 100%;
-	overflow-y: auto;
+}
+main section {
+	height: 80vh;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 5vh 10vw;
 }
 .title {
 	font-size: 1.8em;
 	text-transform: uppercase;
 }
-div.lyrics {
+.title h2 {
+	margin: 0;
+}
+.lyrics {
 	width: 80%;
 	margin: 0 auto;
 	font-size: 1.5em;
@@ -33,4 +37,7 @@ div.lyrics {
 }
 footer {
 	font-size: 0.9em;
+}
+footer h3 {
+	margin: 0;
 }
