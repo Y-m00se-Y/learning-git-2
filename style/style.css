@@ -46,10 +46,14 @@ main section {
 .lyrics {
 	display: flex;
 	display: -webkit-flex;
+	flex-flow: column;
 	width: 100%;
-	justify-content: center;
 	font-size: 1.2em;
 	font-weight: bold;
+}
+.lyrics p {
+	margin-left: calc(50% - (450px / 2));
+	margin-right: auto;
 }
 footer {
 	display: flex;
