@@ -1,0 +1,95 @@
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #000;
+	font-family: 'Open Sans', sans-serif;
+	white-space: nowrap;
+}
+
+main {
+	width: 100%;
+	background-image: url("https://image.shutterstock.com/z/stock-vector-jamaica-flag-265491971.jpg");
+	background-size: 100% 100%;
+}
+header {
+	display: flex;
+	display: -webkit-flex;
+	height: 15vh;
+	min-height: 50px;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-content: center;
+	-webkit-align-content: center;
+	h1 {
+		margin: 0;
+		line-height: 15vh;
+	}
+}
+main section {
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: column;
+	min-height: 450px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+	display: flex;
+	display: -webkit-flex;
+	width: 100%;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	h2 {
+		margin-left: 30px;
+	}
+}
+.lyrics {
+	display: flex;
+	display: -webkit-flex;
+	flex-flow: column;
+	width: 100%;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-content: center;
+	-webkit-align-content: center;
+	font-size: 1.2em;
+	font-weight: bold;
+	p {
+		margin-left: 40px;
+	}
+}
+footer {
+	display: flex;
+	display: -webkit-flex;
+	height: 5vh;
+	min-height: 25px;
+	justify-content: center;
+	-webkit-justify-content: center;
+	align-content: center;
+	-webkit-align-content: center;
+	h3 {
+		margin: 0;
+		line-height: 5vh;
+		font-size: 0.8em;
+	}
+}
+@media (max-width: 768px) {
+	main section {
+		width: 100%;
+	}
+	.title {
+		font-size: 1.2em;
+		h2 {
+			margin-left: 15px;
+		}
+	}
+	.lyrics {
+		font-size: 1em;
+		p {
+			margin-left: 5px;
+		}
+	}
+}
+	
