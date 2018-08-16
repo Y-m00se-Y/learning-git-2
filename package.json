@@ -1,0 +1,25 @@
+{
+  "name": "bootstrap_5_3",
+  "version": "1.0.0",
+  "description": "Bottstrap mod. 5.3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Y-m00se-Y/bootstrap_5_3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Y-m00se-Y/bootstrap_5_3/issues"
+  },
+  "homepage": "https://github.com/Y-m00se-Y/bootstrap_5_3#readme",
+  "devDependencies": {
+    "autoprefixer-cli": "^1.0.0",
+    "browser-sync": "^2.24.6",
+    "nu-html-checker": "^0.1.0"
+  }
+}
