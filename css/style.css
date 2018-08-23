@@ -4,12 +4,14 @@ body {
   color: #fff;
   background-color: #000;
   font-family: 'Open Sans', sans-serif;
-  white-space: nowrap; }
+  white-space: nowrap;
+}
 
 main {
   width: 100%;
   background-image: url("https://image.shutterstock.com/z/stock-vector-jamaica-flag-265491971.jpg");
-  background-size: 100% 100%; }
+  background-size: 100% 100%;
+}
 
 header {
   display: flex;
@@ -19,10 +21,13 @@ header {
   justify-content: center;
   -webkit-justify-content: center;
   align-content: center;
-  -webkit-align-content: center; }
-  header h1 {
-    margin: 0;
-    line-height: 15vh; }
+  -webkit-align-content: center;
+}
+
+header h1 {
+  margin: 0;
+  line-height: 15vh;
+}
 
 main section {
   display: flex;
@@ -31,16 +36,20 @@ main section {
   min-height: 450px;
   width: 80%;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.5); }
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
 .title {
   display: flex;
   display: -webkit-flex;
   width: 100%;
   font-size: 1.5em;
-  text-transform: uppercase; }
-  .title h2 {
-    margin-left: 30px; }
+  text-transform: uppercase;
+}
+
+.title h2 {
+  margin-left: 30px;
+}
 
 .lyrics {
   display: flex;
@@ -50,11 +59,13 @@ main section {
   justify-content: center;
   -webkit-justify-content: center;
   align-content: center;
-  -webkit-align-content: center;
   font-size: 1.2em;
-  font-weight: bold; }
-  .lyrics p {
-    margin-left: 40px; }
+  font-weight: bold;
+}
+
+.lyrics p {
+  margin-left: 40px;
+}
 
 footer {
   display: flex;
@@ -64,24 +75,31 @@ footer {
   justify-content: center;
   -webkit-justify-content: center;
   align-content: center;
-  -webkit-align-content: center; }
-  footer h3 {
-    margin: 0;
-    line-height: 5vh;
-    font-size: 0.8em; }
+  -webkit-align-content: center;
+}
+
+footer h3 {
+  margin: 0;
+  line-height: 5vh;
+  font-size: 0.8em;
+}
 
 @media (max-width: 768px) {
   main section {
-    width: 100%; }
-
+    width: 100%;
+  }
   .title {
-    font-size: 1.2em; }
-    .title h2 {
-      margin-left: 15px; }
-
+    font-size: 1.2em;
+  }
+  .title h2 {
+    margin-left: 20px;
+  }
   .lyrics {
-    font-size: 1em; }
-    .lyrics p {
-      margin-left: 5px; } }
+    font-size: 1em;
+  }
+  .lyrics p {
+    margin-left: 5px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
