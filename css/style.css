@@ -1,27 +1,117 @@
-body { margin: 0; padding: 0; color: #fff; background-color: #000; font-family: 'Open Sans', sans-serif; white-space: nowrap; }
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-color: #000;
+  font-family: 'Open Sans', sans-serif;
+  white-space: nowrap;
+}
 
-main { width: 100%; background-image: url("https://image.shutterstock.com/z/stock-vector-jamaica-flag-265491971.jpg"); background-size: 100% 100%; }
+main {
+  width: 100%;
+  background-image: url("https://image.shutterstock.com/z/stock-vector-jamaica-flag-265491971.jpg");
+  background-size: 100% 100%;
+}
 
-header { display: -ms-flexbox; display: flex; display: -webkit-flex; height: 15vh; min-height: 50px; -ms-flex-pack: center; justify-content: center; -webkit-justify-content: center; -ms-flex-line-pack: center; align-content: center; -webkit-align-content: center; }
+header {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  height: 15vh;
+  min-height: 50px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-align-content: center;
+}
 
-header h1 { margin: 0; line-height: 15vh; }
+header h1 {
+  margin: 0;
+  line-height: 15vh;
+}
 
-main section { display: -ms-flexbox; display: flex; display: -webkit-flex; -ms-flex-flow: column; flex-flow: column; min-height: 450px; width: 80%; margin: 0 auto; background-color: rgba(0, 0, 0, 0.5); }
+main section {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  min-height: 450px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-.title { display: -ms-flexbox; display: flex; display: -webkit-flex; width: 100%; font-size: 1.5em; text-transform: uppercase; }
+.title {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  width: 100%;
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
 
-.title h2 { margin-left: 30px; }
+.title h2 {
+  margin-left: 30px;
+}
 
-.lyrics { display: -ms-flexbox; display: flex; display: -webkit-flex; -ms-flex-flow: column; flex-flow: column; width: 100%; -ms-flex-pack: center; justify-content: center; -webkit-justify-content: center; -ms-flex-line-pack: center; align-content: center; font-size: 1.2em; font-weight: bold; }
+.lyrics {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  -ms-flex-flow: column;
+      flex-flow: column;
+  width: 100%;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  font-size: 1.2em;
+  font-weight: bold;
+}
 
-.lyrics p { margin-left: 40px; }
+.lyrics p {
+  margin-left: 40px;
+}
 
-footer { display: -ms-flexbox; display: flex; display: -webkit-flex; height: 5vh; min-height: 25px; -ms-flex-pack: center; justify-content: center; -webkit-justify-content: center; -ms-flex-line-pack: center; align-content: center; -webkit-align-content: center; }
+footer {
+  display: -ms-flexbox;
+  display: flex;
+  display: -webkit-flex;
+  height: 5vh;
+  min-height: 25px;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -webkit-justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-align-content: center;
+}
 
-footer h3 { margin: 0; line-height: 5vh; font-size: 0.8em; }
+footer h3 {
+  margin: 0;
+  line-height: 5vh;
+  font-size: 0.8em;
+}
 
-@media (max-width: 768px) { main section { width: 100%; }
-  .title { font-size: 1.2em; }
-  .title h2 { margin-left: 20px; }
-  .lyrics { font-size: 1em; }
-  .lyrics p { margin-left: 5px; } }
+@media (max-width: 768px) {
+  main section {
+    width: 100%;
+  }
+  .title {
+    font-size: 1.2em;
+  }
+  .title h2 {
+    margin-left: 20px;
+  }
+  .lyrics {
+    font-size: 1em;
+  }
+  .lyrics p {
+    margin-left: 5px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
